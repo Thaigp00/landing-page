@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+.smaller-main-div {
+    height: 80vh;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -138,4 +142,38 @@ hr {
 
 .info-text {
     text-align: center;
+}
+
+.quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    width: 75%;
+}
+
+.wrapper p {
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 20vh;
 }

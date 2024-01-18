@@ -111,18 +111,31 @@ img {
     flex: 1;
     display: flex;
     align-items: center;
-    gap: 32px;
+    width: 80vw;
 }
 
 .card {
+    flex: 1 1 auto;
     display: flex;
-    flex-direction: column;
-    width: 360px;
-    height: 360px;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 25vw;
+}
+
+.info-div img {
+    width: 25vw;
+}
+
+.info-title {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+hr {
+    width: 10vw;
 }
 
 .info-text {
-    margin: 0;
-    padding: 12px;
     text-align: center;
 }

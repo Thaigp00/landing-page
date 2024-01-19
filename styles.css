@@ -52,19 +52,15 @@ body {
     gap: 8px;
 }
 
-.hero-card,
-#hero-img {
-    width: 480px;
-    height: 320px;
-}
-
 .hero-card {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 8px;
+    gap: 16px;
+    max-width: 480px;
+    max-height: 320px;
 }
 
 .hero-main-text {
@@ -104,6 +100,8 @@ button:hover,
 }
 
 img {
+    width: 40%;
+    height: auto;
     border: 4px solid #3882F6;
     border-radius: 16px;
 }
@@ -173,6 +171,7 @@ hr {
 }
 
 .quote {
+    text-align: center;
     font-size: 36px;
     color: #1F2937;
 }

@@ -10,7 +10,7 @@ body {
 }
 
 .smaller-main-div {
-    height: 80vh;
+    height: 90vh;
 }
 
 .hero {
@@ -85,13 +85,22 @@ button {
     border-radius: 12px;
     font-size: 18px;
     font-weight: bold;
+}
+
+button,
+.reversed {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-button:hover {
+button:hover,
+.reversed:hover {
     background-color: #F9FAF8;
     color: #3882F6;
+}
+
+.reversed {
+    border: 2px solid #F9FAF8;
 }
 
 img {
@@ -174,6 +183,40 @@ hr {
     font-weight: bold;
 }
 
+.signup-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 30%;
+    padding: 16px;
+    border-radius: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.signup-text * {
+    margin: 0;
+}
+
+.signup-text h4 {
+    font-size: 20px;
+
+}
+
 .footer {
-    height: 20vh;
+    height: 10vh;
 }

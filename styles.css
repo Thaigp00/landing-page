@@ -13,6 +13,12 @@ body {
     height: 85vh;
 }
 
+img {
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -22,7 +28,7 @@ body {
 
 .navbar,
 .content {
-    width: 75vw;
+    width: 75%;
 }
 
 .navbar {
@@ -48,6 +54,7 @@ body {
 .content {
     flex: 1;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 8px;
 }
@@ -81,16 +88,11 @@ button {
     border-radius: 12px;
     font-size: 18px;
     font-weight: bold;
-}
-
-button,
-.reversed {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-button:hover,
-.reversed:hover {
+button:hover {
     background-color: #F9FAF8;
     color: #3882F6;
 }
@@ -99,11 +101,8 @@ button:hover,
     border: 2px solid #F9FAF8;
 }
 
-img {
-    width: 40%;
-    height: auto;
-    border: 4px solid #3882F6;
-    border-radius: 16px;
+.hero img {
+    width: 45%;
 }
 
 .info-div {
@@ -113,7 +112,7 @@ img {
 }
 
 .information-header-text {
-    margin: 32px;
+    margin: 32px 0 0;
     font-size: 36px;
     color: #1F2937;
 }
@@ -122,33 +121,29 @@ img {
     flex: 1;
     display: flex;
     align-items: center;
-    width: 80vw;
+    width: 80%;
 }
 
 .card {
-    flex: 1 1 auto;
+    flex: 1;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    width: 25vw;
+    align-items: center;
+    width: 25%;
 }
 
 .info-div img {
-    width: 25vw;
+    width: 90%;
 }
 
 .info-title {
     margin: 0;
     padding: 12px;
-    text-align: center;
 }
 
 hr {
-    width: 10vw;
-}
-
-.info-text {
-    text-align: center;
+    width: 12vw;
 }
 
 .quote-div {
@@ -161,7 +156,7 @@ hr {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     gap: 16px;
     width: 75%;
 }
@@ -171,7 +166,6 @@ hr {
 }
 
 .quote {
-    text-align: center;
     font-size: 36px;
     color: #1F2937;
 }

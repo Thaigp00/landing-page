@@ -10,7 +10,7 @@ body {
 }
 
 .smaller-main-div {
-    height: 90vh;
+    height: 85vh;
 }
 
 .hero {
@@ -197,7 +197,6 @@ hr {
     height: 30%;
     padding: 16px;
     border-radius: 16px;
-    color: #F9FAF8;
     background-color: #3882F6;
 }
 
@@ -214,9 +213,18 @@ hr {
 
 .signup-text h4 {
     font-size: 20px;
+    color: #F9FAF8;
+}
 
+.signup-text p {
+    color: #E5E7EB;
 }
 
 .footer {
-    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
